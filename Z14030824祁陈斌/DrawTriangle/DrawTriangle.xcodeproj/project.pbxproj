@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC7B88D1AC1B6F30023B3CE /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC7B88C1AC1B6F30023B3CE /* libGLTools.a */; };
+		CDC7B8931AC1B74C0023B3CE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC7B8921AC1B74C0023B3CE /* GLUT.framework */; };
+		CDC7B8951AC1B7530023B3CE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC7B8941AC1B7530023B3CE /* OpenGL.framework */; };
+		CDC7B8981AC1B7A10023B3CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDC7B8971AC1B7A10023B3CE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDC7B87F1AC1B6AD0023B3CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDC7B8811AC1B6AD0023B3CE /* DrawTriangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DrawTriangle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC7B88C1AC1B6F30023B3CE /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		CDC7B8921AC1B74C0023B3CE /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CDC7B8941AC1B7530023B3CE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CDC7B8971AC1B7A10023B3CE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC7B87E1AC1B6AD0023B3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC7B8951AC1B7530023B3CE /* OpenGL.framework in Frameworks */,
+				CDC7B8931AC1B74C0023B3CE /* GLUT.framework in Frameworks */,
+				CDC7B88D1AC1B6F30023B3CE /* libGLTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC7B8781AC1B6AD0023B3CE = {
+			isa = PBXGroup;
+			children = (
+				CDC7B8961AC1B7600023B3CE /* framework */,
+				CDC7B8831AC1B6AD0023B3CE /* DrawTriangle */,
+				CDC7B8821AC1B6AD0023B3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC7B8821AC1B6AD0023B3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC7B8811AC1B6AD0023B3CE /* DrawTriangle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC7B8831AC1B6AD0023B3CE /* DrawTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				CDC7B8971AC1B7A10023B3CE /* main.cpp */,
+			);
+			path = DrawTriangle;
+			sourceTree = "<group>";
+		};
+		CDC7B8961AC1B7600023B3CE /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				CDC7B88C1AC1B6F30023B3CE /* libGLTools.a */,
+				CDC7B8941AC1B7530023B3CE /* OpenGL.framework */,
+				CDC7B8921AC1B74C0023B3CE /* GLUT.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC7B8801AC1B6AD0023B3CE /* DrawTriangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC7B8881AC1B6AD0023B3CE /* Build configuration list for PBXNativeTarget "DrawTriangle" */;
+			buildPhases = (
+				CDC7B87D1AC1B6AD0023B3CE /* Sources */,
+				CDC7B87E1AC1B6AD0023B3CE /* Frameworks */,
+				CDC7B87F1AC1B6AD0023B3CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawTriangle;
+			productName = DrawTriangle;
+			productReference = CDC7B8811AC1B6AD0023B3CE /* DrawTriangle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC7B8791AC1B6AD0023B3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = xsdlr;
+				TargetAttributes = {
+					CDC7B8801AC1B6AD0023B3CE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = CDC7B87C1AC1B6AD0023B3CE /* Build configuration list for PBXProject "DrawTriangle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDC7B8781AC1B6AD0023B3CE;
+			productRefGroup = CDC7B8821AC1B6AD0023B3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC7B8801AC1B6AD0023B3CE /* DrawTriangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC7B87D1AC1B6AD0023B3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC7B8981AC1B7A10023B3CE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDC7B8861AC1B6AD0023B3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDC7B8871AC1B6AD0023B3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDC7B8891AC1B6AD0023B3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../GLTools/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC7B88A1AC1B6AD0023B3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../GLTools/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC7B87C1AC1B6AD0023B3CE /* Build configuration list for PBXProject "DrawTriangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC7B8861AC1B6AD0023B3CE /* Debug */,
+				CDC7B8871AC1B6AD0023B3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC7B8881AC1B6AD0023B3CE /* Build configuration list for PBXNativeTarget "DrawTriangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC7B8891AC1B6AD0023B3CE /* Debug */,
+				CDC7B88A1AC1B6AD0023B3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC7B8791AC1B6AD0023B3CE /* Project object */;
+}
